@@ -1,5 +1,4 @@
 import com.mmj.Hello;
-import jdk.internal.util.xml.impl.Input;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -8,7 +7,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * Created by MaMingJiang on 2016/4/11.
