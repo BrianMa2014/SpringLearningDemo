@@ -17,4 +17,11 @@ public class Hello {
     public void say(){
         System.out.println("Hello," + this.msg);
     }
+
+    public Hello(String msg) {
+        this.msg = msg;
+    }
+
+    public Hello() {
+    }
 }
