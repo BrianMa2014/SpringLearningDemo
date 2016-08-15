@@ -5,7 +5,7 @@
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     <!-- 1 设置注入 -->
     <bean id="hello1" class="com.mmj.Hello">
-        <property name="msg" value="设置注入创建实例"/>
+        <property name="msg" value="设值注入创建实例"/>
     </bean>
     <!-- 1 构造注入 -->
     <bean id="hello2" class="com.mmj.Hello">
